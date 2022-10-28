@@ -64,7 +64,7 @@ public class Main {
              * Always main thread will come to this block because, it is the thread with the highest priority.
              * After the main thread (currently running thread puts into sleep thread_02 will get executed)
              */
-            System.out.println(Thread.currentThread().getName()+ " Instance "+i);
+            System.out.println(Thread.currentThread().getName()+ " cycle number "+i);
 
             try {
                 Thread.sleep(100);

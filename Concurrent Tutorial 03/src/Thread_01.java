@@ -4,7 +4,7 @@ public class Thread_01 implements Runnable{
     public void run() {
         for (int i = 0; i < 10; i++) {
 
-            System.out.println(Thread.currentThread().getName()+ " Instance "+i);
+            System.out.println(Thread.currentThread().getName()+ " cycle number "+i);
 
             try{
                 Thread.sleep(100);
